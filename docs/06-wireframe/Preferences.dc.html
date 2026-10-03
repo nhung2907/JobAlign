@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; background: #F2F0EC; color: #1C1B19; font-family: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: #45608F; text-decoration: none; }
+    a:hover { color: #2F4468; }
+  </style>
+</helmet>
+<div style="width: 1280px; min-height: 1260px; background: #F2F0EC; display: flex; flex-direction: column;">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; height: 60px; padding: 0 28px; background: #ffffff; border-bottom: 1px solid #D9D5CE;">
+    <div style="font-size: 16px; font-weight: 600; letter-spacing: -0.01em;">JobAlign</div>
+    <div style="display: flex; align-items: center; gap: 10px; font-size: 12px; color: #8A8781;">
+      <span style="display: flex; align-items: center; gap: 7px;"><span style="width: 22px; height: 22px; border: 1px solid #C9C5BD; display: flex; align-items: center; justify-content: center; font-size: 11px;">1</span>Tải CV</span>
+      <span style="width: 24px; height: 1px; background: #D9D5CE;"></span>
+      <span style="display: flex; align-items: center; gap: 7px;"><span style="width: 22px; height: 22px; border: 1px solid #C9C5BD; display: flex; align-items: center; justify-content: center; font-size: 11px;">2</span>Hồ sơ năng lực</span>
+      <span style="width: 24px; height: 1px; background: #D9D5CE;"></span>
+      <span style="display: flex; align-items: center; gap: 7px; color: #1C1B19; font-weight: 500;"><span style="width: 22px; height: 22px; background: #45608F; border: 1px solid #45608F; color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 11px;">3</span>Kỳ vọng</span>
+    </div>
+    <div style="width: 32px; height: 32px; border-radius: 50%; background: #E7E3DC; border: 1px solid #D9D5CE;"></div>
+  </div>
+
+  <div style="display: flex; gap: 28px; padding: 36px 64px;">
+
+    <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 16px;">
+
+      <div style="display: flex; flex-direction: column; gap: 7px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="font-size: 24px; font-weight: 600; letter-spacing: -0.015em;">Kỳ vọng nghề nghiệp</div>
+          <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: #8A8781; border: 1px dashed #CFCBC3; padding: 2px 5px;">UR-1.2</span>
+        </div>
+        <div style="font-size: 14px; color: #6B6862; max-width: 620px;">Đây là chiều thứ hai của đánh giá: công việc có đáp ứng tiêu chuẩn của bạn không. Mỗi tiêu chí gắn một mức quan trọng riêng.</div>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="font-size: 15px; font-weight: 600;">Mức thu nhập</div>
+            <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: #8A8781; border: 1px dashed #CFCBC3; padding: 2px 5px;">UR-1.2.1</span>
+          </div>
+          <div style="display: flex; border: 1px solid #C9C5BD;">
+            <span style="font-size: 12px; padding: 8px 12px; background: #45608F; color: #ffffff; font-weight: 500;">Must-have</span>
+            <span style="font-size: 12px; padding: 8px 12px; background: #ffffff; color: #6B6862; border-left: 1px solid #C9C5BD;">Important</span>
+            <span style="font-size: 12px; padding: 8px 12px; background: #ffffff; color: #6B6862; border-left: 1px solid #C9C5BD;">Nice-to-have</span>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px;">
+          <div style="display: flex; flex-direction: column; gap: 7px;">
+            <div style="font-size: 12px; color: #8A8781;">Mong muốn (triệu đồng / tháng)</div>
+            <div style="height: 44px; border: 1px solid #C9C5BD; background: #ffffff; display: flex; align-items: center; padding: 0 14px; font-size: 14px;">15</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 7px;">
+            <div style="font-size: 12px; color: #8A8781;">Tối thiểu chấp nhận được</div>
+            <div style="height: 44px; border: 1px solid #C9C5BD; background: #ffffff; display: flex; align-items: center; padding: 0 14px; font-size: 14px;">12</div>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px; color: #6B6862;">
+          <span style="width: 16px; height: 16px; border: 1px solid #45608F; background: #45608F; display: flex; align-items: center; justify-content: center;"><svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8.5 3 3 6-7"/></svg></span>
+          Chấp nhận thương lượng nếu các tiêu chí khác đều đạt
+        </div>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="font-size: 15px; font-weight: 600;">Địa điểm &amp; di chuyển</div>
+            <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: #8A8781; border: 1px dashed #CFCBC3; padding: 2px 5px;">UR-1.2.2</span>
+          </div>
+          <div style="display: flex; border: 1px solid #C9C5BD;">
+            <span style="font-size: 12px; padding: 8px 12px; background: #ffffff; color: #6B6862;">Must-have</span>
+            <span style="font-size: 12px; padding: 8px 12px; background: #45608F; color: #ffffff; font-weight: 500; border-left: 1px solid #C9C5BD;">Important</span>
+            <span style="font-size: 12px; padding: 8px 12px; background: #ffffff; color: #6B6862; border-left: 1px solid #C9C5BD;">Nice-to-have</span>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px;">
+          <div style="display: flex; flex-direction: column; gap: 7px;">
+            <div style="font-size: 12px; color: #8A8781;">Khu vực làm việc</div>
+            <div style="height: 44px; border: 1px solid #C9C5BD; background: #ffffff; display: flex; align-items: center; justify-content: space-between; padding: 0 14px; font-size: 14px;">Hà Nội — Cầu Giấy, Ba Đình, Đống Đa<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="#8A8781" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m4 6.5 4 4 4-4"/></svg></div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 7px;">
+            <div style="font-size: 12px; color: #8A8781;">Thời gian đi lại tối đa</div>
+            <div style="display: flex; border: 1px solid #C9C5BD; height: 44px;">
+              <span style="flex-grow: 1; display: flex; align-items: center; justify-content: center; font-size: 13px; background: #ffffff; color: #6B6862;">15 phút</span>
+              <span style="flex-grow: 1; display: flex; align-items: center; justify-content: center; font-size: 13px; background: #EFEDE8; color: #1C1B19; font-weight: 500; border-left: 1px solid #C9C5BD; border-right: 1px solid #C9C5BD;">30 phút</span>
+              <span style="flex-grow: 1; display: flex; align-items: center; justify-content: center; font-size: 13px; background: #ffffff; color: #6B6862;">45 phút</span>
+              <span style="flex-grow: 1; display: flex; align-items: center; justify-content: center; font-size: 13px; background: #ffffff; color: #6B6862; border-left: 1px solid #C9C5BD;">Bất kỳ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="font-size: 15px; font-weight: 600;">Hình thức làm việc</div>
+            <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: #8A8781; border: 1px dashed #CFCBC3; padding: 2px 5px;">UR-1.2.3</span>
+          </div>
+          <div style="display: flex; border: 1px solid #C9C5BD;">
+            <span style="font-size: 12px; padding: 8px 12px; background: #ffffff; color: #6B6862;">Must-have</span>
+            <span style="font-size: 12px; padding: 8px 12px; background: #45608F; color: #ffffff; font-weight: 500; border-left: 1px solid #C9C5BD;">Important</span>
+            <span style="font-size: 12px; padding: 8px 12px; background: #ffffff; color: #6B6862; border-left: 1px solid #C9C5BD;">Nice-to-have</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <div style="flex-grow: 1; height: 52px; border: 1px solid #C9C5BD; background: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #6B6862;">Onsite</div>
+          <div style="flex-grow: 1; height: 52px; border: 2px solid #45608F; background: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 500; color: #2F4468;">Hybrid</div>
+          <div style="flex-grow: 1; height: 52px; border: 1px solid #C9C5BD; background: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #6B6862;">Remote</div>
+        </div>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="font-size: 15px; font-weight: 600;">Cơ hội phát triển</div>
+            <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: #8A8781; border: 1px dashed #CFCBC3; padding: 2px 5px;">UR-1.2.4</span>
+          </div>
+          <div style="display: flex; border: 1px solid #C9C5BD;">
+            <span style="font-size: 12px; padding: 8px 12px; background: #ffffff; color: #6B6862;">Must-have</span>
+            <span style="font-size: 12px; padding: 8px 12px; background: #ffffff; color: #6B6862; border-left: 1px solid #C9C5BD;">Important</span>
+            <span style="font-size: 12px; padding: 8px 12px; background: #45608F; color: #ffffff; font-weight: 500; border-left: 1px solid #C9C5BD;">Nice-to-have</span>
+          </div>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <span style="font-size: 13px; padding: 10px 14px; background: #EFEDE8; border: 1px solid #C9C5BD;">Được đào tạo bài bản</span>
+          <span style="font-size: 13px; padding: 10px 14px; background: #EFEDE8; border: 1px solid #C9C5BD;">Có lộ trình thăng tiến rõ</span>
+          <span style="font-size: 13px; padding: 10px 14px; background: #ffffff; border: 1px solid #C9C5BD; color: #6B6862;">Có mentor trực tiếp</span>
+          <span style="font-size: 13px; padding: 10px 14px; background: #ffffff; border: 1px solid #C9C5BD; color: #6B6862;">Ngân sách học tập</span>
+        </div>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; border-left: 3px solid #98493E; padding: 20px; display: flex; flex-direction: column; gap: 14px;">
+        <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 20px;">
+          <div style="display: flex; flex-direction: column; gap: 5px;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <div style="font-size: 15px; font-weight: 600;">Deal-breaker</div>
+              <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: #8A8781; border: 1px dashed #CFCBC3; padding: 2px 5px;">UR-1.2.6</span>
+            </div>
+            <div style="font-size: 13px; color: #6B6862;">Điều kiện mà nếu không đáp ứng thì bạn không muốn ứng tuyển. JD vi phạm sẽ bị cảnh báo trước khi chấm điểm.</div>
+          </div>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <span style="font-size: 13px; padding: 8px 12px; background: #ffffff; border: 1px solid #98493E; color: #7E3B32; display: flex; align-items: center; gap: 8px;">Lương dưới 12 triệu<svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="#98493E" stroke-width="1.6" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"/></svg></span>
+          <span style="font-size: 13px; padding: 8px 12px; background: #ffffff; border: 1px solid #98493E; color: #7E3B32; display: flex; align-items: center; gap: 8px;">Bắt buộc onsite 5 ngày/tuần<svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="#98493E" stroke-width="1.6" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"/></svg></span>
+          <span style="font-size: 13px; padding: 8px 12px; background: #ffffff; border: 1px dashed #B9B4AB; color: #8A8781; display: flex; align-items: center; gap: 7px;"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="#A3A099" stroke-width="1.6" stroke-linecap="round"><path d="M8 3.5v9M3.5 8h9"/></svg>Thêm deal-breaker</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="width: 300px; display: flex; flex-direction: column; gap: 16px;">
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; padding: 20px; display: flex; flex-direction: column; gap: 14px;">
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <div style="font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase; color: #8A8781; font-weight: 600;">Mức quan trọng</div>
+          <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: #8A8781; border: 1px dashed #CFCBC3; padding: 2px 5px;">UR-1.2.5</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <div style="font-size: 13px; font-weight: 600;">Must-have</div>
+            <div style="font-size: 12px; line-height: 1.5; color: #6B6862;">Không đạt thì điểm Work Fit bị kéo xuống mạnh.</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <div style="font-size: 13px; font-weight: 600;">Important</div>
+            <div style="font-size: 12px; line-height: 1.5; color: #6B6862;">Ảnh hưởng vừa phải, vẫn cân nhắc được.</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <div style="font-size: 13px; font-weight: 600;">Nice-to-have</div>
+            <div style="font-size: 12px; line-height: 1.5; color: #6B6862;">Chỉ là điểm cộng, không làm hỏng kết luận.</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; padding: 20px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="font-size: 13px; line-height: 1.55; color: #6B6862;">Kỳ vọng lưu ở cấp tài khoản và áp dụng cho mọi JD. Sửa lại lúc nào cũng được, các JD đã phân tích sẽ được chấm lại.</div>
+        <div style="height: 44px; display: flex; align-items: center; justify-content: center; background: #45608F; border: 1px solid #45608F; color: #ffffff; font-size: 14px; font-weight: 500;">Lưu kỳ vọng &amp; bắt đầu</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

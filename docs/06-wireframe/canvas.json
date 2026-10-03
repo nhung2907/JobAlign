@@ -1,0 +1,168 @@
+{
+  "artboards": [
+    {
+      "file": "UploadCV.dc.html",
+      "page": "page-1",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 800,
+      "title": "1 · Tải CV"
+    },
+    {
+      "file": "ProfileReview.dc.html",
+      "page": "page-1",
+      "x": 1400,
+      "y": 0,
+      "w": 1280,
+      "h": 1320,
+      "title": "2 · Hồ sơ năng lực"
+    },
+    {
+      "file": "Preferences.dc.html",
+      "page": "page-1",
+      "x": 2800,
+      "y": 0,
+      "w": 1280,
+      "h": 1260,
+      "title": "3 · Kỳ vọng nghề nghiệp"
+    },
+    {
+      "file": "JDInput.dc.html",
+      "page": "page-1",
+      "x": 4200,
+      "y": 0,
+      "w": 1280,
+      "h": 880,
+      "title": "4 · Nhập JD"
+    },
+    {
+      "file": "JDBreakdown.dc.html",
+      "page": "page-1",
+      "x": 0,
+      "y": 1540,
+      "w": 1280,
+      "h": 1150,
+      "title": "5 · Bóc tách JD"
+    },
+    {
+      "file": "Main.dc.html",
+      "page": "page-1",
+      "x": 1400,
+      "y": 1540,
+      "w": 1280,
+      "h": 1560,
+      "title": "6 · Kết quả hai chiều — màn hình lõi"
+    },
+    {
+      "file": "GapAnalysis.dc.html",
+      "page": "page-1",
+      "x": 2800,
+      "y": 1540,
+      "w": 1280,
+      "h": 1620,
+      "title": "7 · Khoảng trống"
+    },
+    {
+      "file": "Clarification.dc.html",
+      "page": "page-1",
+      "x": 4200,
+      "y": 1540,
+      "w": 1280,
+      "h": 1080,
+      "title": "8 · Hỏi lại để làm rõ"
+    },
+    {
+      "file": "ActionPlan.dc.html",
+      "page": "page-1",
+      "x": 0,
+      "y": 3380,
+      "w": 1280,
+      "h": 1520,
+      "title": "9 · Việc cần làm"
+    },
+    {
+      "file": "Dashboard.dc.html",
+      "page": "page-1",
+      "x": 1400,
+      "y": 3380,
+      "w": 1280,
+      "h": 840,
+      "title": "10 · Danh sách JD (hub)"
+    },
+    {
+      "file": "MobileResult.dc.html",
+      "page": "page-2",
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 1720,
+      "title": "Kết quả hai chiều — mobile"
+    },
+    {
+      "file": "MobileDashboard.dc.html",
+      "page": "page-2",
+      "x": 510,
+      "y": 0,
+      "w": 390,
+      "h": 1000,
+      "title": "Danh sách JD — mobile"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "row-1",
+      "page": "page-1",
+      "x": 0,
+      "y": -170,
+      "w": 560,
+      "text": "HÀNG 1 — Onboarding, làm một lần\nTải CV → xác nhận hồ sơ năng lực → khai kỳ vọng → dán JD.\nUR-1.1 · UR-1.2 · UR-1.3 (lát cắt 1)"
+    },
+    {
+      "id": "row-2",
+      "page": "page-1",
+      "x": 0,
+      "y": 1370,
+      "w": 560,
+      "text": "HÀNG 2 — Lõi sản phẩm\nBóc tách JD → đánh giá hai chiều → khoảng trống → hỏi lại khi thiếu dữ liệu.\nMàn 6 là màn hình lõi (UR-1.4 · UR-1.5 · UR-1.6). Màn 7 và 8 là một vòng lặp: màn 7 hiển thị trạng thái sau khi đã trả lời 2 trong 3 câu hỏi ở màn 8, tiêu chí bị bỏ qua giữ nguyên 'chưa đủ dữ liệu'."
+    },
+    {
+      "id": "row-3",
+      "page": "page-1",
+      "x": 0,
+      "y": 3210,
+      "w": 560,
+      "text": "HÀNG 3 — Ra hành động và quay vòng\nFix Now / Build First (UR-2.5 · UR-2.6), rồi về hub để so các JD với nhau và chấm lại."
+    },
+    {
+      "id": "scope",
+      "page": "page-1",
+      "x": 2800,
+      "y": 3380,
+      "w": 520,
+      "text": "NGOÀI PHẠM VI\nNhóm 3 — lộ trình, gợi ý tài nguyên học, theo dõi tiến độ — chưa vẽ wireframe, theo mục 8 của URD (0 yêu cầu Must, phụ thuộc database phải curate tay).\n\nMàn 9 có một ô mờ đánh dấu chỗ tính năng đó sẽ nối vào sau."
+    },
+    {
+      "id": "mobile-note",
+      "page": "page-2",
+      "x": 0,
+      "y": -170,
+      "w": 560,
+      "text": "Bản mobile của hai màn hình quan trọng nhất, cho NFR-7.\nKhung vẽ cao hơn màn hình thật để nhìn trọn trang khi cuộn — không phải chiều cao thiết bị.\nKhông vẽ thanh trạng thái giả: trên máy thật hệ điều hành tự vẽ đè lên."
+    }
+  ],
+  "launch": {
+    "view": "canvas",
+    "page": "page-1"
+  },
+  "pages": [
+    {
+      "id": "page-1",
+      "name": "Luồng chính — desktop"
+    },
+    {
+      "id": "page-2",
+      "name": "Mobile"
+    }
+  ]
+}

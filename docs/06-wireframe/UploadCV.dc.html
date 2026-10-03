@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; background: #F2F0EC; color: #1C1B19; font-family: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: #45608F; text-decoration: none; }
+    a:hover { color: #2F4468; }
+  </style>
+</helmet>
+<div style="width: 1280px; min-height: 800px; background: #F2F0EC; display: flex; flex-direction: column;">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; height: 60px; padding: 0 28px; background: #ffffff; border-bottom: 1px solid #D9D5CE;">
+    <div style="font-size: 16px; font-weight: 600; letter-spacing: -0.01em;">JobAlign</div>
+    <div style="display: flex; align-items: center; gap: 10px; font-size: 12px; color: #8A8781;">
+      <span style="display: flex; align-items: center; gap: 7px; color: #1C1B19; font-weight: 500;"><span style="width: 22px; height: 22px; background: #45608F; border: 1px solid #45608F; color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 11px;">1</span>Tải CV</span>
+      <span style="width: 24px; height: 1px; background: #D9D5CE;"></span>
+      <span style="display: flex; align-items: center; gap: 7px;"><span style="width: 22px; height: 22px; border: 1px solid #C9C5BD; display: flex; align-items: center; justify-content: center; font-size: 11px;">2</span>Hồ sơ năng lực</span>
+      <span style="width: 24px; height: 1px; background: #D9D5CE;"></span>
+      <span style="display: flex; align-items: center; gap: 7px;"><span style="width: 22px; height: 22px; border: 1px solid #C9C5BD; display: flex; align-items: center; justify-content: center; font-size: 11px;">3</span>Kỳ vọng</span>
+    </div>
+    <div style="width: 32px; height: 32px; border-radius: 50%; background: #E7E3DC; border: 1px solid #D9D5CE;"></div>
+  </div>
+
+  <div style="display: flex; gap: 32px; padding: 44px 96px;">
+
+    <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 20px;">
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="font-size: 26px; font-weight: 600; letter-spacing: -0.015em;">Tải CV để bắt đầu</div>
+          <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; color: #8A8781; border: 1px dashed #CFCBC3; padding: 2px 5px;">UR-1.1.1</span>
+        </div>
+        <div style="font-size: 14px; line-height: 1.55; color: #6B6862; max-width: 560px;">CV chỉ được đọc một lần. Hồ sơ năng lực sinh ra từ đây được dùng lại cho mọi JD về sau, bạn không phải nhập lại thông tin.</div>
+      </div>
+
+      <div style="background: #ffffff; border: 2px dashed #C4C0B8; padding: 56px 32px; display: flex; flex-direction: column; align-items: center; gap: 16px;">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#A3A099" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4"/><path d="m7 9 5-5 5 5"/><path d="M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></svg>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
+          <div style="font-size: 15px; font-weight: 500;">Kéo thả CV vào đây</div>
+          <div style="font-size: 13px; color: #8A8781;">PDF hoặc DOCX · tối đa 10 MB</div>
+        </div>
+        <div style="height: 44px; display: flex; align-items: center; justify-content: center; padding: 0 22px; background: #45608F; border: 1px solid #45608F; color: #ffffff; font-size: 14px; font-weight: 500;">Chọn tệp từ máy</div>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 14px;">
+        <div style="flex-grow: 1; height: 1px; background: #D9D5CE;"></div>
+        <div style="font-size: 12px; color: #8A8781;">hoặc</div>
+        <div style="flex-grow: 1; height: 1px; background: #D9D5CE;"></div>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; padding: 18px 20px; display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+        <div style="display: flex; flex-direction: column; gap: 3px;">
+          <div style="font-size: 14px; font-weight: 500;">Nhập hồ sơ thủ công</div>
+          <div style="font-size: 13px; color: #6B6862;">Dành cho CV lạ định dạng, hoặc khi bước đọc CV báo lỗi.</div>
+        </div>
+        <div style="height: 44px; display: flex; align-items: center; justify-content: center; padding: 0 18px; background: #ffffff; border: 1px solid #B9B4AB; color: #3A3833; font-size: 14px; font-weight: 500; white-space: nowrap;">Nhập tay</div>
+      </div>
+    </div>
+
+    <div style="width: 328px; display: flex; flex-direction: column; gap: 16px;">
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; padding: 20px; display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase; color: #8A8781; font-weight: 600;">Hệ thống sẽ trích xuất</div>
+        <div style="display: flex; flex-direction: column; gap: 11px;">
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8A8781" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8.5 3 3 6-7"/></svg>Học vấn</div>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8A8781" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8.5 3 3 6-7"/></svg>Kinh nghiệm làm việc</div>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8A8781" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8.5 3 3 6-7"/></svg>Kỹ năng</div>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8A8781" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8.5 3 3 6-7"/></svg>Dự án</div>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8A8781" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8.5 3 3 6-7"/></svg>Chứng chỉ &amp; ngoại ngữ</div>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8A8781" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8.5 3 3 6-7"/></svg>Thành tích</div>
+        </div>
+        <div style="height: 1px; background: #E7E3DC;"></div>
+        <div style="font-size: 13px; line-height: 1.5; color: #6B6862;">Thời gian xử lý dự kiến dưới 30 giây.</div>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #D9D5CE; border-top: 3px solid #C4C0B8; padding: 18px 20px; display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8A8781" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6.5"/><path d="M8 5v3.5"/><path d="M8 11h.01"/></svg>
+          <div style="font-size: 13px; font-weight: 600;">Trạng thái cần thiết kế</div>
+        </div>
+        <div style="font-size: 13px; line-height: 1.6; color: #6B6862;">Đang tải · Đang đọc CV · Đọc xong · Lỗi hoặc quá thời gian. Khi lỗi phải giữ nguyên hồ sơ đã lưu và mở đường nhập tay.</div>
+      </div>
+
+      <div style="display: flex; align-items: flex-start; gap: 8px; font-size: 12px; line-height: 1.55; color: #8A8781;">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="#A3A099" stroke-width="1.5" stroke-linecap="round" style="flex-shrink: 0; margin-top: 2px;"><rect x="3" y="7" width="10" height="7"/><path d="M5.5 7V4.5a2.5 2.5 0 0 1 5 0V7"/></svg>
+        <div>CV chứa dữ liệu cá nhân. Chỉ chủ tài khoản xem được, và xoá được bất cứ lúc nào.</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

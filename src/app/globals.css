@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+/* Ngôn ngữ thiết kế lấy cảm hứng từ LinkedIn: nền xám ấm, thẻ trắng bo góc với viền mảnh,
+   xanh dương làm màu nhấn, nút dạng viên thuốc, xanh lá/cam/đỏ cho mức độ khớp. */
+@theme {
+  --color-canvas: #f4f2ee;
+  --color-surface: #ffffff;
+  --color-subtle: #f8f8f7;
+  --color-muted: #eef3f8;
+  --color-line: #e0dfdc;
+  --color-line-soft: #ebeae7;
+  --color-line-strong: #8c8c8c;
+  --color-dash: #c9c7c2;
+  --color-bar: #d9d7d2;
+  --color-ink: #191919;
+  --color-ink-2: #38434f;
+  --color-ink-3: #666666;
+  --color-ink-4: #7a7a7a;
+  --color-ink-5: #a5a5a5;
+  --color-accent: #0a66c2;
+  --color-accent-strong: #004182;
+  --color-accent-soft: #e8f3ff;
+  --color-success: #057642;
+  --color-success-strong: #01754f;
+  --color-success-soft: #e3f3e9;
+  --color-warning: #915907;
+  --color-warning-bright: #e7a33e;
+  --color-warning-soft: #fcf0dd;
+  --color-danger: #cc1016;
+  --color-danger-strong: #a20c11;
+  --color-danger-soft: #fdeceb;
+
+  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --shadow-card: 0 0 0 1px rgb(140 140 140 / 0.2);
+  --shadow-pop: 0 0 0 1px rgb(140 140 140 / 0.2), 0 4px 12px rgb(0 0 0 / 0.15);
+}
+
+/* Để trong @layer base: style không thuộc layer sẽ thắng mọi utility của Tailwind v4. */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[13px] font-semibold text-ink-3;
+  }
+  .field {
+    @apply h-10 w-full rounded-md border border-line-strong bg-surface px-3 text-[15px] text-ink outline-none placeholder:text-ink-5 hover:border-ink focus:border-accent focus:shadow-[0_0_0_1px_var(--color-accent)] disabled:cursor-not-allowed disabled:border-line disabled:bg-subtle;
+  }
+  .field-area {
+    @apply w-full rounded-md border border-line-strong bg-surface px-3 py-2.5 text-[15px] leading-relaxed text-ink outline-none placeholder:text-ink-5 hover:border-ink focus:border-accent focus:shadow-[0_0_0_1px_var(--color-accent)];
+  }
+  .label {
+    @apply mb-1.5 block text-[13px] text-ink-3;
+  }
+  .link {
+    @apply font-semibold text-accent hover:text-accent-strong hover:underline;
+  }
+  .panel {
+    @apply rounded-md border border-line-soft bg-subtle;
+  }
+}
